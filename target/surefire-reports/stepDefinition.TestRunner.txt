@@ -1,0 +1,57 @@
+-------------------------------------------------------------------------------
+Test set: stepDefinition.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 1.375 s <<< FAILURE! - in stepDefinition.TestRunner
+stepDefinition.TestRunner.runScenario["Verify user is able to login with valid credentials", "Login functionality"](1)  Time elapsed: 0.102 s  <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step 'Enter username as "demo" and password as "1234"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("Enter username as {string} and password as {string}")
+public void enter_username_as_and_password_as(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+stepDefinition.TestRunner.runScenario["Verify user is able to login with valid credentials", "Login functionality"](2)  Time elapsed: 0.009 s  <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step 'Enter username as "demm" and password as "1222"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("Enter username as {string} and password as {string}")
+public void enter_username_as_and_password_as(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+stepDefinition.TestRunner.runScenario["Verify user is able to generate qr code", "Login functionality"](3)  Time elapsed: 0.021 s  <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step 'Enter username as "demo" and password as "1234"' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When("Enter username as {string} and password as {string}")
+public void enter_username_as_and_password_as(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Enter amount {string}")
+public void enter_amount(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+stepDefinition.TestRunner.runScenario["Verify database values", "Login functionality"](4)  Time elapsed: 0.016 s  <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step 'Enter username as "demo" and password as "1234"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("Enter username as {string} and password as {string}")
+public void enter_username_as_and_password_as(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+

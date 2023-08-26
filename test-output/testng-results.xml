@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-03T21:18:22 IST" name="Default suite" finished-at="2023-08-03T21:18:24 IST" duration-ms="2163">
+    <groups>
+    </groups>
+    <test started-at="2023-08-03T21:18:22 IST" name="Default test" finished-at="2023-08-03T21:18:24 IST" duration-ms="2163">
+      <class name="stepDefinition.GetReqDemo">
+        <test-method signature="testGetReq()[pri:0, instance:stepDefinition.GetReqDemo@1c5920df]" started-at="2023-08-03T21:18:22 IST" name="testGetReq" finished-at="2023-08-03T21:18:24 IST" duration-ms="2100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetReq -->
+      </class> <!-- stepDefinition.GetReqDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
